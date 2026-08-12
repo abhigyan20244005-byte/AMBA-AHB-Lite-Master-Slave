@@ -38,3 +38,12 @@ The design was verified using **Verilog simulation in Xilinx Vivado**. The testb
 * Xilinx Vivado
 * Behavioral Simulation
 * AMBA AHB-Lite Protocol
+
+## Future Improvements
+Support for multiple AHB-Lite slave devices using address-based slave selection.
+Addition of configurable burst types and transfer sizes.
+Improved error and response handling using AHB-Lite response signals.
+Extended FIFO functionality with configurable depth and data width.
+More comprehensive verification using SystemVerilog assertions and functional coverage.
+FPGA hardware implementation and testing on a development board.
+Performance testing for different transfer patterns and burst lengths.
