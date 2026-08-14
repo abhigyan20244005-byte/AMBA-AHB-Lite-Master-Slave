@@ -31,6 +31,15 @@ The design supports read and write operations, transaction handshaking, address 
 ## Verification
 
 The design was verified using **Verilog simulation in Xilinx Vivado**. The testbench applies different read/write transactions and monitors the resulting address, control, data, and handshake signals through simulation waveforms.
+The design was verified using a dedicated Verilog testbench covering:
+
+1. Single write
+2. Single read
+3. INCR4 read
+4. Wait-state handling
+5. Error response
+6. WRAP burst rejection
+7. Invalid burst-length rejection
 
 ## Tools & Technologies
 
